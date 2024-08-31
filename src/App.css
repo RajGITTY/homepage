@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.App {
+  position: relative;
+  z-index: 1; /* Ensure content is on top of the background video */
+  color: #ffffff; /* Adjust text color for contrast */
+}
 
 .App-logo {
   height: 40vmin;
